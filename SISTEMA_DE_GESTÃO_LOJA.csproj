@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9426EB2-1585-4E13-BD2F-2BDBA23F32BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SISTEMA_DE_GESTÃO_LOJA</RootNamespace>
+    <AssemblyName>SISTEMA DE GESTÃO LOJA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\osval\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>15D4211B9ABA47ABF0BD4DEF1ACEA89C0CE51CAC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SISTEMA_DE_GESTÃO_LOJA_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SISTEMA_DE_GESTÃO_LOJA.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\CircularProgressBar.2.2.0.0\lib\net35-Client\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.3.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LibNoise.NetStandart, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\LibNoise.NetStandart.0.2.0\lib\netstandard2.0\LibNoise.NetStandart.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.BootstrapIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.BootstrapIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.BoxIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.BoxIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Codicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Codicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Coolicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Coolicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Entypo, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Entypo.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.EvaIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.EvaIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.FeatherIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.FeatherIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.FileIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.FileIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Fontaudio, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Fontaudio.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.FontAwesome, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.FontAwesome.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Fontisto, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Fontisto.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.ForkAwesome, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.ForkAwesome.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Ionicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Ionicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.JamIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.JamIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Material, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Material.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.MaterialDesign, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.MaterialDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.MaterialLight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.MaterialLight.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Microns, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Microns.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Modern, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Modern.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Octicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Octicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.PicolIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.PicolIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.PixelartIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.PixelartIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.RadixIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.RadixIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.RemixIcon, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.RemixIcon.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.RPGAwesome, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.RPGAwesome.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.SimpleIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.SimpleIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Typicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Typicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Unicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Unicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.VaadinIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.VaadinIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.WeatherIcons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.WeatherIcons.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.IconPacks.Zondicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Zondicons.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SKGL, Version=2.0.4.1, Culture=neutral, PublicKeyToken=6506df92444891d9, processorArchitecture=MSIL">
+      <HintPath>packages\SoftwareProtector.1.0.5.1\lib\SKGL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WinFormAnimation, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WinFormAnimation.1.3.0.0\lib\net35-Client\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessoDB\AcessoBanco.cs" />
+    <Compile Include="Controller\AgendamentoController.cs" />
+    <Compile Include="Controller\AluguerController.cs" />
+    <Compile Include="Controller\BairroController.cs" />
+    <Compile Include="Controller\CargoController.cs" />
+    <Compile Include="Controller\CidadeController.cs" />
+    <Compile Include="Controller\ClienteController.cs" />
+    <Compile Include="Controller\DepartamentoController.cs" />
+    <Compile Include="Controller\DevolucaoController.cs" />
+    <Compile Include="Controller\EmpresaController.cs" />
+    <Compile Include="Controller\EnderecoCliController.cs" />
+    <Compile Include="Controller\EnderecoForController.cs" />
+    <Compile Include="Controller\EnderecoFunController.cs" />
+    <Compile Include="Controller\EstadoController.cs" />
+    <Compile Include="Controller\FornecedorController.cs" />
+    <Compile Include="Controller\FuncionarioController.cs" />
+    <Compile Include="Controller\HistoricoPrecoProdutoController.cs" />
+    <Compile Include="Controller\ItemAgendamentoController.cs" />
+    <Compile Include="Controller\ItemVendaController.cs" />
+    <Compile Include="Controller\MaterialController.cs" />
+    <Compile Include="Controller\MetasController.cs" />
+    <Compile Include="Controller\MultaController.cs" />
+    <Compile Include="Controller\NtVendaController.cs" />
+    <Compile Include="Controller\ProdutoController.cs" />
+    <Compile Include="Controller\SalarioController.cs" />
+    <Compile Include="Controller\SituacaoController.cs" />
+    <Compile Include="Controller\TelefoneCliController.cs" />
+    <Compile Include="Controller\TelefoneEmpController.cs" />
+    <Compile Include="Controller\TelefoneForController.cs" />
+    <Compile Include="Controller\TelefoneFunController.cs" />
+    <Compile Include="Controller\TipoTelefoneController.cs" />
+    <Compile Include="Controller\TipoUsuarioController.cs" />
+    <Compile Include="Controller\UsuarioController.cs" />
+    <Compile Include="Criptografia\Cryptography.cs" />
+    <Compile Include="DAO\AgendamentoDAO.cs" />
+    <Compile Include="DAO\AluguerDAO.cs" />
+    <Compile Include="DAO\BairroDAO.cs" />
+    <Compile Include="DAO\CargoDAO.cs" />
+    <Compile Include="DAO\CidadeDAO.cs" />
+    <Compile Include="DAO\ClienteDAO.cs" />
+    <Compile Include="DAO\DepartamentoDAO.cs" />
+    <Compile Include="DAO\DevolucaoDAO.cs" />
+    <Compile Include="DAO\EmpresaDAO.cs" />
+    <Compile Include="DAO\EnderecoCliDAO.cs" />
+    <Compile Include="DAO\EnderecoForDAO.cs" />
+    <Compile Include="DAO\EnderecoFunDAO.cs" />
+    <Compile Include="DAO\EstadoDAO.cs" />
+    <Compile Include="DAO\FornecedorDAO.cs" />
+    <Compile Include="DAO\FuncionarioDAO.cs" />
+    <Compile Include="DAO\HistoricoPrecoProdutoDAO.cs" />
+    <Compile Include="DAO\ItemAgendamentoDAO.cs" />
+    <Compile Include="DAO\ItemAluguerDAO.cs" />
+    <Compile Include="DAO\ItemVendaDAO.cs" />
+    <Compile Include="DAO\MaterialDAO.cs" />
+    <Compile Include="DAO\MetasDAO.cs" />
+    <Compile Include="DAO\MultaDAO.cs" />
+    <Compile Include="DAO\NtVendaDAO.cs" />
+    <Compile Include="DAO\ProdutoDAO.cs" />
+    <Compile Include="DAO\SalarioDAO.cs" />
+    <Compile Include="DAO\SituacaoDAO.cs" />
+    <Compile Include="DAO\TelefoneCliDAO.cs" />
+    <Compile Include="DAO\TelefoneEmpDAO.cs" />
+    <Compile Include="DAO\TelefoneForDAO.cs" />
+    <Compile Include="DAO\TelefoneFunDAO.cs" />
+    <Compile Include="DAO\TipoTelefoneDAO.cs" />
+    <Compile Include="DAO\TipoUsuarioDAO.cs" />
+    <Compile Include="DAO\UsuarioDAO.cs" />
+    <Compile Include="EstoqueDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstoqueDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EstoqueDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstoqueDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AgendamentoModel.cs" />
+    <Compile Include="Model\AluguerModel.cs" />
+    <Compile Include="Model\BairroModel.cs" />
+    <Compile Include="Model\CargoModel.cs" />
+    <Compile Include="Model\CidadeModel.cs" />
+    <Compile Include="Model\ClienteModel.cs" />
+    <Compile Include="Model\DepartamentoModel.cs" />
+    <Compile Include="Model\DevolucaoModel.cs" />
+    <Compile Include="Model\EmpresaModel.cs" />
+    <Compile Include="Model\EnderecoCliModel.cs" />
+    <Compile Include="Model\EnderecoEmpModel.cs" />
+    <Compile Include="Model\EnderecoForModel.cs" />
+    <Compile Include="Model\EnderecoFunModel.cs" />
+    <Compile Include="Model\EstadoModel.cs" />
+    <Compile Include="Model\FornecedorModel.cs" />
+    <Compile Include="Model\FuncionarioModel.cs" />
+    <Compile Include="Model\HistoricoPrecoProdutoModel.cs" />
+    <Compile Include="Model\ItemAgendamentoModel.cs" />
+    <Compile Include="Model\ItemAluguerModel.cs" />
+    <Compile Include="Model\ItemVendaModel.cs" />
+    <Compile Include="Model\MaterialModel.cs" />
+    <Compile Include="Model\MetasModel.cs" />
+    <Compile Include="Model\MultaModel.cs" />
+    <Compile Include="Model\NtVendaModel.cs" />
+    <Compile Include="Model\ProdutoModel.cs" />
+    <Compile Include="Model\SalarioModel.cs" />
+    <Compile Include="Model\SituacaoModel.cs" />
+    <Compile Include="Model\TelefoneCliModel.cs" />
+    <Compile Include="Model\TelefoneEmpModel.cs" />
+    <Compile Include="Model\TelefoneForModel.cs" />
+    <Compile Include="Model\TelefoneFunModel.cs" />
+    <Compile Include="Model\TipoTelefoneModel.cs" />
+    <Compile Include="Model\TipoUsuarioModel.cs" />
+    <Compile Include="Model\UsuarioModel.cs" />
+    <Compile Include="Model\VendasGraficosModel.cs" />
+    <Compile Include="Model\VisualizarRelatorioModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\WFRelatorioComPesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\WFRelatorioComPesquisa.Designer.cs">
+      <DependentUpon>WFRelatorioComPesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\WFRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\WFRelatorio.Designer.cs">
+      <DependentUpon>WFRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\AtualizarLicencas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\AtualizarLicencas.Designer.cs">
+      <DependentUpon>AtualizarLicencas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\ConfigurarListView.cs" />
+    <Compile Include="Util\Diversos.cs" />
+    <Compile Include="Util\EstilizarDataGridView.cs" />
+    <Compile Include="Util\MGMensagemErro.cs" />
+    <Compile Include="Util\PadraoForm.cs" />
+    <Compile Include="Util\ReadWriteFoto.cs" />
+    <Compile Include="Util\Seguranca.cs" />
+    <Compile Include="Util\ControleSessao.cs" />
+    <Compile Include="Util\ThemeColor.cs" />
+    <Compile Include="View\DepartamentoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DepartamentoView.Designer.cs">
+      <DependentUpon>DepartamentoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Icones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Icones.Designer.cs">
+      <DependentUpon>Icones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProgessBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ProgessBar.Designer.cs">
+      <DependentUpon>ProgessBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFAluguerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFAluguerView.Designer.cs">
+      <DependentUpon>WFAluguerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFMaterialView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFMaterialView.Designer.cs">
+      <DependentUpon>WFMaterialView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFCargoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFCargoView.Designer.cs">
+      <DependentUpon>WFCargoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFCompraProdutoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFCompraProdutoView.Designer.cs">
+      <DependentUpon>WFCompraProdutoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFFormDefinicaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFFormDefinicaoView.Designer.cs">
+      <DependentUpon>WFFormDefinicaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFLoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFLoginView.Designer.cs">
+      <DependentUpon>WFLoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFEmailView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFEmailView.Designer.cs">
+      <DependentUpon>WFEmailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFMetasView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFMetasView.Designer.cs">
+      <DependentUpon>WFMetasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFRecuperarSenhaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFRecuperarSenhaView.Designer.cs">
+      <DependentUpon>WFRecuperarSenhaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFSalarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFSalarioView.Designer.cs">
+      <DependentUpon>WFSalarioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFSocioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFSocioView.Designer.cs">
+      <DependentUpon>WFSocioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFTipoUsuarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFTipoUsuarioView.Designer.cs">
+      <DependentUpon>WFTipoUsuarioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFFornecedorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFFornecedorView.Designer.cs">
+      <DependentUpon>WFFornecedorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFPrincipalView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFPrincipalView.Designer.cs">
+      <DependentUpon>WFPrincipalView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFBairroView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFBairroView.Designer.cs">
+      <DependentUpon>WFBairroView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFCidadeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFCidadeView.Designer.cs">
+      <DependentUpon>WFCidadeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFClienteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFClienteView.Designer.cs">
+      <DependentUpon>WFClienteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFConsultaNtVendaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFConsultaNtVendaView.Designer.cs">
+      <DependentUpon>WFConsultaNtVendaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFAlterarCredView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFAlterarCredView.Designer.cs">
+      <DependentUpon>WFAlterarCredView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFEmpresaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFEmpresaView.Designer.cs">
+      <DependentUpon>WFEmpresaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFEstadoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFEstadoView.Designer.cs">
+      <DependentUpon>WFEstadoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFFiliarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFFiliarView.Designer.cs">
+      <DependentUpon>WFFiliarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFFuncionarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFFuncionarioView.Designer.cs">
+      <DependentUpon>WFFuncionarioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFLojaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFLojaView.Designer.cs">
+      <DependentUpon>WFLojaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFNotificacaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFNotificacaoView.Designer.cs">
+      <DependentUpon>WFNotificacaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFSituacaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFSituacaoView.Designer.cs">
+      <DependentUpon>WFSituacaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFSubLojaView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFSubLojaView.Designer.cs">
+      <DependentUpon>WFSubLojaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFTelefoneView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFTelefoneView.Designer.cs">
+      <DependentUpon>WFTelefoneView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFTipoSituacaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFTipoSituacaoView.Designer.cs">
+      <DependentUpon>WFTipoSituacaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFTipoTelefoneView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFTipoTelefoneView.Designer.cs">
+      <DependentUpon>WFTipoTelefoneView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFDefinicaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFDefinicaoView.Designer.cs">
+      <DependentUpon>WFDefinicaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFUsuarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFUsuarioView.Designer.cs">
+      <DependentUpon>WFUsuarioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFVendaProdutoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFVendaProdutoView.Designer.cs">
+      <DependentUpon>WFVendaProdutoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFProdutoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFProdutoView.Designer.cs">
+      <DependentUpon>WFProdutoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFRegraView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFRegraView.Designer.cs">
+      <DependentUpon>WFRegraView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WFReportandoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WFReportandoView.Designer.cs">
+      <DependentUpon>WFReportandoView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relatorios\WFRelatorioComPesquisa.resx">
+      <DependentUpon>WFRelatorioComPesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\Report1.rdlc" />
+    <EmbeddedResource Include="Relatorios\WFRelatorio.resx">
+      <DependentUpon>WFRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\AtualizarLicencas.resx">
+      <DependentUpon>AtualizarLicencas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DepartamentoView.resx">
+      <DependentUpon>DepartamentoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Icones.resx">
+      <DependentUpon>Icones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ProgessBar.resx">
+      <DependentUpon>ProgessBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFAluguerView.resx">
+      <DependentUpon>WFAluguerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFMaterialView.resx">
+      <DependentUpon>WFMaterialView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFCargoView.resx">
+      <DependentUpon>WFCargoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFCompraProdutoView.resx">
+      <DependentUpon>WFCompraProdutoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFConsultaNtVendaView.resx">
+      <DependentUpon>WFConsultaNtVendaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFFormDefinicaoView.resx">
+      <DependentUpon>WFFormDefinicaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFFornecedorView.resx">
+      <DependentUpon>WFFornecedorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFLoginView.resx">
+      <DependentUpon>WFLoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFEmailView.resx">
+      <DependentUpon>WFEmailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFMetasView.resx">
+      <DependentUpon>WFMetasView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFRecuperarSenhaView.resx">
+      <DependentUpon>WFRecuperarSenhaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFSalarioView.resx">
+      <DependentUpon>WFSalarioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFSocioView.resx">
+      <DependentUpon>WFSocioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFTipoUsuarioView.resx">
+      <DependentUpon>WFTipoUsuarioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFPrincipalView.resx">
+      <DependentUpon>WFPrincipalView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFBairroView.resx">
+      <DependentUpon>WFBairroView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFCidadeView.resx">
+      <DependentUpon>WFCidadeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFClienteView.resx">
+      <DependentUpon>WFClienteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFAlterarCredView.resx">
+      <DependentUpon>WFAlterarCredView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFEmpresaView.resx">
+      <DependentUpon>WFEmpresaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFEstadoView.resx">
+      <DependentUpon>WFEstadoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFFiliarView.resx">
+      <DependentUpon>WFFiliarView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFFuncionarioView.resx">
+      <DependentUpon>WFFuncionarioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFLojaView.resx">
+      <DependentUpon>WFLojaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFNotificacaoView.resx">
+      <DependentUpon>WFNotificacaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFSituacaoView.resx">
+      <DependentUpon>WFSituacaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFSubLojaView.resx">
+      <DependentUpon>WFSubLojaView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFTelefoneView.resx">
+      <DependentUpon>WFTelefoneView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFTipoSituacaoView.resx">
+      <DependentUpon>WFTipoSituacaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFTipoTelefoneView.resx">
+      <DependentUpon>WFTipoTelefoneView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFDefinicaoView.resx">
+      <DependentUpon>WFDefinicaoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFUsuarioView.resx">
+      <DependentUpon>WFUsuarioView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFVendaProdutoView.resx">
+      <DependentUpon>WFVendaProdutoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFProdutoView.resx">
+      <DependentUpon>WFProdutoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFRegraView.resx">
+      <DependentUpon>WFRegraView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WFReportandoView.resx">
+      <DependentUpon>WFReportandoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="EstoqueDataSet.xsc">
+      <DependentUpon>EstoqueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EstoqueDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstoqueDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EstoqueDataSet.xss">
+      <DependentUpon>EstoqueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EstoqueDataSet1.xsc">
+      <DependentUpon>EstoqueDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EstoqueDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EstoqueDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EstoqueDataSet1.xss">
+      <DependentUpon>EstoqueDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SISTEMA_DE_GESTÃO_LOJA_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Relatorios\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Relatorios\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Relatorios\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Plus_36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\value %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\value.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-out %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led vermelho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\led vermelho1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_36px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Plus_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-crossed-golden-and-silver-keys-two-lucky-crossed-vector-picture-image_9335815.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-list1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LINCENSE.txt" />
+    <Content Include="Software Protector.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+</Project>

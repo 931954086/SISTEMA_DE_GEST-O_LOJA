@@ -1,0 +1,3087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnAbout.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 32</value>
+  </data>
+  <data name="BtnAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="BtnAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;BtnAbout.Name" xml:space="preserve">
+    <value>BtnAbout</value>
+  </data>
+  <data name="&gt;&gt;BtnAbout.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;BtnAbout.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;BtnAbout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnTools.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BtnTools.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 32</value>
+  </data>
+  <data name="BtnTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 28</value>
+  </data>
+  <data name="BtnTools.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="BtnTools.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="&gt;&gt;BtnTools.Name" xml:space="preserve">
+    <value>BtnTools</value>
+  </data>
+  <data name="&gt;&gt;BtnTools.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;BtnTools.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;BtnTools.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblMessageAlarme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMessageAlarme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="LblMessageAlarme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 22</value>
+  </data>
+  <data name="LblMessageAlarme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="LblMessageAlarme.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LblMessageAlarme.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LblMessageAlarme.Name" xml:space="preserve">
+    <value>LblMessageAlarme</value>
+  </data>
+  <data name="&gt;&gt;LblMessageAlarme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMessageAlarme.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;LblMessageAlarme.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="iconPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 17</value>
+  </data>
+  <data name="iconPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 30</value>
+  </data>
+  <data name="iconPictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox4.Name" xml:space="preserve">
+    <value>iconPictureBox4</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox4.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox4.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblMessageNotificao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMessageNotificao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="LblMessageNotificao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>843, 22</value>
+  </data>
+  <data name="LblMessageNotificao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="LblMessageNotificao.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LblMessageNotificao.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblMessageNotificao.Name" xml:space="preserve">
+    <value>LblMessageNotificao</value>
+  </data>
+  <data name="&gt;&gt;LblMessageNotificao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMessageNotificao.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;LblMessageNotificao.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="iconPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 17</value>
+  </data>
+  <data name="iconPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="iconPictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox3.Name" xml:space="preserve">
+    <value>iconPictureBox3</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox3.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox3.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="iconPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 32</value>
+  </data>
+  <data name="iconPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 31</value>
+  </data>
+  <data name="iconPictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox2.Name" xml:space="preserve">
+    <value>iconPictureBox2</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox2.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox2.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="iconPictureBoxSino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 33</value>
+  </data>
+  <data name="iconPictureBoxSino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 31</value>
+  </data>
+  <data name="iconPictureBoxSino.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBoxSino.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSino.Name" xml:space="preserve">
+    <value>iconPictureBoxSino</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSino.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSino.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSino.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="iconPictureBoxUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>912, 33</value>
+  </data>
+  <data name="iconPictureBoxUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 30</value>
+  </data>
+  <data name="iconPictureBoxUser.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBoxUser.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUser.Name" xml:space="preserve">
+    <value>iconPictureBoxUser</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUser.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUser.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUser.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 31</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Página Inicial</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 60</value>
+  </data>
+  <data name="panelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 75</value>
+  </data>
+  <data name="panelTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Name" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblUsuarioText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblUsuarioText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="LblUsuarioText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 4</value>
+  </data>
+  <data name="LblUsuarioText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="LblUsuarioText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblUsuarioText.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblUsuarioText.Name" xml:space="preserve">
+    <value>LblUsuarioText</value>
+  </data>
+  <data name="&gt;&gt;LblUsuarioText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblUsuarioText.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;LblUsuarioText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelUsuario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="labelUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 5</value>
+  </data>
+  <data name="labelUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="labelUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelUsuario.Text" xml:space="preserve">
+    <value>Usuário:</value>
+  </data>
+  <data name="&gt;&gt;labelUsuario.Name" xml:space="preserve">
+    <value>labelUsuario</value>
+  </data>
+  <data name="&gt;&gt;labelUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelUsuario.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labelUsuario.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblAcessoText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblAcessoText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="LblAcessoText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 4</value>
+  </data>
+  <data name="LblAcessoText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 20</value>
+  </data>
+  <data name="LblAcessoText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblAcessoText.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblAcessoText.Name" xml:space="preserve">
+    <value>LblAcessoText</value>
+  </data>
+  <data name="&gt;&gt;LblAcessoText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAcessoText.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;LblAcessoText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelAcesso.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAcesso.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="labelAcesso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 3</value>
+  </data>
+  <data name="labelAcesso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelAcesso.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelAcesso.Text" xml:space="preserve">
+    <value>Acesso: </value>
+  </data>
+  <data name="&gt;&gt;labelAcesso.Name" xml:space="preserve">
+    <value>labelAcesso</value>
+  </data>
+  <data name="&gt;&gt;labelAcesso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAcesso.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labelAcesso.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 829</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 30</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="iconPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 32</value>
+  </data>
+  <data name="iconPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 62</value>
+  </data>
+  <data name="iconPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox1.Name" xml:space="preserve">
+    <value>iconPictureBox1</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox1.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox1.Parent" xml:space="preserve">
+    <value>panelLogo</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 117</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 1</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panelLogo</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 17</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 53</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panelLogo</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelLogo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 131</value>
+  </data>
+  <data name="panelLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelLogo.Name" xml:space="preserve">
+    <value>panelLogo</value>
+  </data>
+  <data name="&gt;&gt;panelLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelLogo.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;panelLogo.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="panelMenu.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IconBtnSair.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnSair.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnSair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnSair.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnSair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1291</value>
+  </data>
+  <data name="IconBtnSair.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnSair.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="IconBtnSair.Text" xml:space="preserve">
+    <value>  Sair</value>
+  </data>
+  <data name="IconBtnSair.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnSair.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSair.Name" xml:space="preserve">
+    <value>IconBtnSair</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSair.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSair.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSair.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IconBtnSubLoja.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnSubLoja.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnSubLoja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnSubLoja.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnSubLoja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1251</value>
+  </data>
+  <data name="IconBtnSubLoja.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnSubLoja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnSubLoja.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="IconBtnSubLoja.Text" xml:space="preserve">
+    <value> + Lojas</value>
+  </data>
+  <data name="IconBtnSubLoja.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnSubLoja.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSubLoja.Name" xml:space="preserve">
+    <value>IconBtnSubLoja</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSubLoja.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSubLoja.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSubLoja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IconBtnLoja.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnLoja.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnLoja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnLoja.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnLoja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1211</value>
+  </data>
+  <data name="IconBtnLoja.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnLoja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnLoja.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="IconBtnLoja.Text" xml:space="preserve">
+    <value>  Lojas</value>
+  </data>
+  <data name="IconBtnLoja.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnLoja.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnLoja.Name" xml:space="preserve">
+    <value>IconBtnLoja</value>
+  </data>
+  <data name="&gt;&gt;IconBtnLoja.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnLoja.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnLoja.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="iconButton5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButton5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButton5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1171</value>
+  </data>
+  <data name="iconButton5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="iconButton5.Text" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="iconButton5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButton5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Name" xml:space="preserve">
+    <value>iconButton5</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="iconButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButton4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButton4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1131</value>
+  </data>
+  <data name="iconButton4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="iconButton4.Text" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="iconButton4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButton4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Name" xml:space="preserve">
+    <value>iconButton4</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="iconButtonAluguer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButtonAluguer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButtonAluguer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButtonAluguer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButtonAluguer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButtonAluguer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1091</value>
+  </data>
+  <data name="iconButtonAluguer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButtonAluguer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButtonAluguer.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="iconButtonAluguer.Text" xml:space="preserve">
+    <value>  Aluguer</value>
+  </data>
+  <data name="iconButtonAluguer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButtonAluguer.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButtonAluguer.Name" xml:space="preserve">
+    <value>iconButtonAluguer</value>
+  </data>
+  <data name="&gt;&gt;iconButtonAluguer.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButtonAluguer.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButtonAluguer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="iconButtonMaterial.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButtonMaterial.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButtonMaterial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButtonMaterial.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButtonMaterial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButtonMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1051</value>
+  </data>
+  <data name="iconButtonMaterial.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButtonMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButtonMaterial.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="iconButtonMaterial.Text" xml:space="preserve">
+    <value>  Materias</value>
+  </data>
+  <data name="iconButtonMaterial.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButtonMaterial.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButtonMaterial.Name" xml:space="preserve">
+    <value>iconButtonMaterial</value>
+  </data>
+  <data name="&gt;&gt;iconButtonMaterial.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButtonMaterial.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButtonMaterial.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="iconButtonDecoracao.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButtonDecoracao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButtonDecoracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButtonDecoracao.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButtonDecoracao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButtonDecoracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1011</value>
+  </data>
+  <data name="iconButtonDecoracao.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButtonDecoracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButtonDecoracao.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="iconButtonDecoracao.Text" xml:space="preserve">
+    <value>  Decoração</value>
+  </data>
+  <data name="iconButtonDecoracao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButtonDecoracao.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButtonDecoracao.Name" xml:space="preserve">
+    <value>iconButtonDecoracao</value>
+  </data>
+  <data name="&gt;&gt;iconButtonDecoracao.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButtonDecoracao.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButtonDecoracao.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="iconButtonComprar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="iconButtonComprar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="iconButtonComprar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="iconButtonComprar.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="iconButtonComprar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconButtonComprar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 971</value>
+  </data>
+  <data name="iconButtonComprar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="iconButtonComprar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="iconButtonComprar.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="iconButtonComprar.Text" xml:space="preserve">
+    <value>  Comprar</value>
+  </data>
+  <data name="iconButtonComprar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="iconButtonComprar.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;iconButtonComprar.Name" xml:space="preserve">
+    <value>iconButtonComprar</value>
+  </data>
+  <data name="&gt;&gt;iconButtonComprar.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButtonComprar.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButtonComprar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnConsultaFatura.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnConsultaFatura.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 931</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnConsultaFatura.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="IconBtnConsultaFatura.Text" xml:space="preserve">
+    <value>  Consultar Fatura</value>
+  </data>
+  <data name="IconBtnConsultaFatura.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnConsultaFatura.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnConsultaFatura.Name" xml:space="preserve">
+    <value>IconBtnConsultaFatura</value>
+  </data>
+  <data name="&gt;&gt;IconBtnConsultaFatura.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnConsultaFatura.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnConsultaFatura.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="IconBtnFatur.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnFatur.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnFatur.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnFatur.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnFatur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 891</value>
+  </data>
+  <data name="IconBtnFatur.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnFatur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnFatur.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="IconBtnFatur.Text" xml:space="preserve">
+    <value>  Faturar</value>
+  </data>
+  <data name="IconBtnFatur.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnFatur.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFatur.Name" xml:space="preserve">
+    <value>IconBtnFatur</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFatur.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFatur.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFatur.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="IconBtnNovoProduto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnNovoProduto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnNovoProduto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnNovoProduto.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnNovoProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 851</value>
+  </data>
+  <data name="IconBtnNovoProduto.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnNovoProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnNovoProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="IconBtnNovoProduto.Text" xml:space="preserve">
+    <value>  Produtos</value>
+  </data>
+  <data name="IconBtnNovoProduto.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnNovoProduto.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoProduto.Name" xml:space="preserve">
+    <value>IconBtnNovoProduto</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoProduto.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoProduto.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoProduto.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="IconBtnProduto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnProduto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnProduto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnProduto.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 811</value>
+  </data>
+  <data name="IconBtnProduto.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="IconBtnProduto.Text" xml:space="preserve">
+    <value>  Produtos</value>
+  </data>
+  <data name="IconBtnProduto.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnProduto.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnProduto.Name" xml:space="preserve">
+    <value>IconBtnProduto</value>
+  </data>
+  <data name="&gt;&gt;IconBtnProduto.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnProduto.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnProduto.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnTipoUsuario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnTipoUsuario.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 771</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnTipoUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="IconBtnTipoUsuario.Text" xml:space="preserve">
+    <value>Tipo Usuários</value>
+  </data>
+  <data name="IconBtnTipoUsuario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnTipoUsuario.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoUsuario.Name" xml:space="preserve">
+    <value>IconBtnTipoUsuario</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoUsuario.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoUsuario.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoUsuario.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnNovoUsuario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnNovoUsuario.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 731</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnNovoUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="IconBtnNovoUsuario.Text" xml:space="preserve">
+    <value> Usuários</value>
+  </data>
+  <data name="IconBtnNovoUsuario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnNovoUsuario.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoUsuario.Name" xml:space="preserve">
+    <value>IconBtnNovoUsuario</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoUsuario.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoUsuario.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnNovoUsuario.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 691</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.Text" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnCadastroUsuario.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCadastroUsuario.Name" xml:space="preserve">
+    <value>IconBtnCadastroUsuario</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCadastroUsuario.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCadastroUsuario.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCadastroUsuario.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="IconBtnBairro.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnBairro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnBairro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnBairro.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnBairro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 651</value>
+  </data>
+  <data name="IconBtnBairro.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnBairro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnBairro.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="IconBtnBairro.Text" xml:space="preserve">
+    <value>   Bairros</value>
+  </data>
+  <data name="IconBtnBairro.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnBairro.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnBairro.Name" xml:space="preserve">
+    <value>IconBtnBairro</value>
+  </data>
+  <data name="&gt;&gt;IconBtnBairro.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnBairro.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnBairro.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="IconBtnCidade.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnCidade.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnCidade.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnCidade.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnCidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 611</value>
+  </data>
+  <data name="IconBtnCidade.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnCidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnCidade.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="IconBtnCidade.Text" xml:space="preserve">
+    <value>   Cidades</value>
+  </data>
+  <data name="IconBtnCidade.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnCidade.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCidade.Name" xml:space="preserve">
+    <value>IconBtnCidade</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCidade.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCidade.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCidade.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="IconBtnEstado.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnEstado.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnEstado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnEstado.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnEstado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 571</value>
+  </data>
+  <data name="IconBtnEstado.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnEstado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnEstado.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="IconBtnEstado.Text" xml:space="preserve">
+    <value>   Estados</value>
+  </data>
+  <data name="IconBtnEstado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnEstado.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEstado.Name" xml:space="preserve">
+    <value>IconBtnEstado</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEstado.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEstado.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEstado.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnTipoTelefone.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnTipoTelefone.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 531</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnTipoTelefone.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="IconBtnTipoTelefone.Text" xml:space="preserve">
+    <value>   Tipo Telefone</value>
+  </data>
+  <data name="IconBtnTipoTelefone.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnTipoTelefone.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoTelefone.Name" xml:space="preserve">
+    <value>IconBtnTipoTelefone</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoTelefone.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoTelefone.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnTipoTelefone.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="IconBtnSalario.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnSalario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnSalario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnSalario.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnSalario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 491</value>
+  </data>
+  <data name="IconBtnSalario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnSalario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnSalario.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="IconBtnSalario.Text" xml:space="preserve">
+    <value>   Salários</value>
+  </data>
+  <data name="IconBtnSalario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnSalario.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSalario.Name" xml:space="preserve">
+    <value>IconBtnSalario</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSalario.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSalario.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSalario.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="IconBtnCargo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnCargo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnCargo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnCargo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnCargo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 451</value>
+  </data>
+  <data name="IconBtnCargo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnCargo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnCargo.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="IconBtnCargo.Text" xml:space="preserve">
+    <value>   Cargos</value>
+  </data>
+  <data name="IconBtnCargo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnCargo.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCargo.Name" xml:space="preserve">
+    <value>IconBtnCargo</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCargo.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCargo.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCargo.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="IconBtnSituacao.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnSituacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnSituacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnSituacao.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnSituacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 411</value>
+  </data>
+  <data name="IconBtnSituacao.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnSituacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnSituacao.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="IconBtnSituacao.Text" xml:space="preserve">
+    <value>   Situações</value>
+  </data>
+  <data name="IconBtnSituacao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnSituacao.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSituacao.Name" xml:space="preserve">
+    <value>IconBtnSituacao</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSituacao.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSituacao.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSituacao.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="IconBtnSocio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnSocio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnSocio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnSocio.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnSocio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 371</value>
+  </data>
+  <data name="IconBtnSocio.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnSocio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnSocio.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="IconBtnSocio.Text" xml:space="preserve">
+    <value>   Sócios</value>
+  </data>
+  <data name="IconBtnSocio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnSocio.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSocio.Name" xml:space="preserve">
+    <value>IconBtnSocio</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSocio.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSocio.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnSocio.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="IconBtnFornecedor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnFornecedor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnFornecedor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnFornecedor.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnFornecedor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 331</value>
+  </data>
+  <data name="IconBtnFornecedor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnFornecedor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnFornecedor.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="IconBtnFornecedor.Text" xml:space="preserve">
+    <value>   Fornecedores</value>
+  </data>
+  <data name="IconBtnFornecedor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnFornecedor.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFornecedor.Name" xml:space="preserve">
+    <value>IconBtnFornecedor</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFornecedor.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFornecedor.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFornecedor.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="IconBtnFuncionario.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnFuncionario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnFuncionario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnFuncionario.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnFuncionario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 291</value>
+  </data>
+  <data name="IconBtnFuncionario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnFuncionario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnFuncionario.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="IconBtnFuncionario.Text" xml:space="preserve">
+    <value>   Funcionários</value>
+  </data>
+  <data name="IconBtnFuncionario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnFuncionario.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFuncionario.Name" xml:space="preserve">
+    <value>IconBtnFuncionario</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFuncionario.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFuncionario.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnFuncionario.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="IconBtnCliente.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnCliente.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnCliente.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 251</value>
+  </data>
+  <data name="IconBtnCliente.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="IconBtnCliente.Text" xml:space="preserve">
+    <value>   Clientes</value>
+  </data>
+  <data name="IconBtnCliente.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnCliente.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCliente.Name" xml:space="preserve">
+    <value>IconBtnCliente</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCliente.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCliente.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnCliente.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="IconBtnEmpresa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnEmpresa.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnEmpresa.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnEmpresa.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnEmpresa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="IconBtnEmpresa.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnEmpresa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnEmpresa.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="IconBtnEmpresa.Text" xml:space="preserve">
+    <value>   Empresa</value>
+  </data>
+  <data name="IconBtnEmpresa.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnEmpresa.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEmpresa.Name" xml:space="preserve">
+    <value>IconBtnEmpresa</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEmpresa.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEmpresa.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnEmpresa.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="IconBtnWindows.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnWindows.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnWindows.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnWindows.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnWindows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="IconBtnWindows.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnWindows.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="IconBtnWindows.Text" xml:space="preserve">
+    <value>   Outras</value>
+  </data>
+  <data name="IconBtnWindows.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnWindows.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnWindows.Name" xml:space="preserve">
+    <value>IconBtnWindows</value>
+  </data>
+  <data name="&gt;&gt;IconBtnWindows.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnWindows.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnWindows.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="IconBtnDashboard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="IconBtnDashboard.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IconBtnDashboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="IconBtnDashboard.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IconBtnDashboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 131</value>
+  </data>
+  <data name="IconBtnDashboard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="IconBtnDashboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="IconBtnDashboard.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="IconBtnDashboard.Text" xml:space="preserve">
+    <value>  Dashboard</value>
+  </data>
+  <data name="IconBtnDashboard.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IconBtnDashboard.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;IconBtnDashboard.Name" xml:space="preserve">
+    <value>IconBtnDashboard</value>
+  </data>
+  <data name="&gt;&gt;IconBtnDashboard.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;IconBtnDashboard.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;IconBtnDashboard.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="panelMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
+  </data>
+  <data name="panelMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 799</value>
+  </data>
+  <data name="panelMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Name" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="iconPictureBoxInvitations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 17</value>
+  </data>
+  <data name="iconPictureBoxInvitations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="iconPictureBoxInvitations.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBoxInvitations.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxInvitations.Name" xml:space="preserve">
+    <value>iconPictureBoxInvitations</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxInvitations.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxInvitations.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxInvitations.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblTotalNumCliente.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTotalNumCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 20.25pt</value>
+  </data>
+  <data name="LblTotalNumCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 53</value>
+  </data>
+  <data name="LblTotalNumCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="LblTotalNumCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblTotalNumCliente.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumCliente.Name" xml:space="preserve">
+    <value>LblTotalNumCliente</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumCliente.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumCliente.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblInvitationsSent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblInvitationsSent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LblInvitationsSent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 14</value>
+  </data>
+  <data name="LblInvitationsSent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="LblInvitationsSent.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblInvitationsSent.Text" xml:space="preserve">
+    <value>Total de Clientes</value>
+  </data>
+  <data name="&gt;&gt;LblInvitationsSent.Name" xml:space="preserve">
+    <value>LblInvitationsSent</value>
+  </data>
+  <data name="&gt;&gt;LblInvitationsSent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblInvitationsSent.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;LblInvitationsSent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 44</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 100</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="panel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="iconPictureBoxCustomer.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="iconPictureBoxCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 14</value>
+  </data>
+  <data name="iconPictureBoxCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 68</value>
+  </data>
+  <data name="iconPictureBoxCustomer.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="iconPictureBoxCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxCustomer.Name" xml:space="preserve">
+    <value>iconPictureBoxCustomer</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxCustomer.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxCustomer.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblTotalClientes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTotalClientes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LblTotalClientes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 14</value>
+  </data>
+  <data name="LblTotalClientes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="LblTotalClientes.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LblTotalClientes.Text" xml:space="preserve">
+    <value>Total de Usuários</value>
+  </data>
+  <data name="&gt;&gt;LblTotalClientes.Name" xml:space="preserve">
+    <value>LblTotalClientes</value>
+  </data>
+  <data name="&gt;&gt;LblTotalClientes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTotalClientes.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;LblTotalClientes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblTotalNumUsuario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTotalNumUsuario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 20.25pt</value>
+  </data>
+  <data name="LblTotalNumUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 50</value>
+  </data>
+  <data name="LblTotalNumUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="LblTotalNumUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LblTotalNumUsuario.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblTotalNumUsuario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumUsuario.Name" xml:space="preserve">
+    <value>LblTotalNumUsuario</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumUsuario.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumUsuario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 44</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 100</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="iconPictureBoxSchedule.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="iconPictureBoxSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 14</value>
+  </data>
+  <data name="iconPictureBoxSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 68</value>
+  </data>
+  <data name="iconPictureBoxSchedule.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="iconPictureBoxSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSchedule.Name" xml:space="preserve">
+    <value>iconPictureBoxSchedule</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSchedule.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSchedule.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblTotalNumProduto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTotalNumProduto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 20.25pt</value>
+  </data>
+  <data name="LblTotalNumProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 48</value>
+  </data>
+  <data name="LblTotalNumProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="LblTotalNumProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblTotalNumProduto.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumProduto.Name" xml:space="preserve">
+    <value>LblTotalNumProduto</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumProduto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumProduto.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumProduto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblReachoutSchedule.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblReachoutSchedule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LblReachoutSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="LblReachoutSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="LblReachoutSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblReachoutSchedule.Text" xml:space="preserve">
+    <value>Total de Produtos</value>
+  </data>
+  <data name="&gt;&gt;LblReachoutSchedule.Name" xml:space="preserve">
+    <value>LblReachoutSchedule</value>
+  </data>
+  <data name="&gt;&gt;LblReachoutSchedule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblReachoutSchedule.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;LblReachoutSchedule.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 44</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 100</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelLogo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLogo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt</value>
+  </data>
+  <data name="labelLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 255</value>
+  </data>
+  <data name="labelLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="labelLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelLogo.Text" xml:space="preserve">
+    <value>AWS</value>
+  </data>
+  <data name="&gt;&gt;labelLogo.Name" xml:space="preserve">
+    <value>labelLogo</value>
+  </data>
+  <data name="&gt;&gt;labelLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLogo.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;labelLogo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="panel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="iconPictureBoxUnred.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="iconPictureBoxUnred.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="iconPictureBoxUnred.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="iconPictureBoxUnred.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUnred.Name" xml:space="preserve">
+    <value>iconPictureBoxUnred</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUnred.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconPictureBox, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUnred.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;iconPictureBoxUnred.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblTotalNumVenda.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTotalNumVenda.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 20.25pt</value>
+  </data>
+  <data name="LblTotalNumVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 52</value>
+  </data>
+  <data name="LblTotalNumVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="LblTotalNumVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LblTotalNumVenda.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumVenda.Name" xml:space="preserve">
+    <value>LblTotalNumVenda</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumVenda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumVenda.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;LblTotalNumVenda.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblUnredMessages.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblUnredMessages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LblUnredMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="LblUnredMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="LblUnredMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblUnredMessages.Text" xml:space="preserve">
+    <value>Total de Vendas</value>
+  </data>
+  <data name="&gt;&gt;LblUnredMessages.Name" xml:space="preserve">
+    <value>LblUnredMessages</value>
+  </data>
+  <data name="&gt;&gt;LblUnredMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblUnredMessages.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;LblUnredMessages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 44</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 100</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 19</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblTools.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTools.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="LblTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 3</value>
+  </data>
+  <data name="LblTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="LblTools.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblTools.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="&gt;&gt;LblTools.Name" xml:space="preserve">
+    <value>LblTools</value>
+  </data>
+  <data name="&gt;&gt;LblTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTools.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;LblTools.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ChartPie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 276</value>
+  </data>
+  <data name="ChartPie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 408</value>
+  </data>
+  <data name="ChartPie.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ChartPie.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;ChartPie.Name" xml:space="preserve">
+    <value>ChartPie</value>
+  </data>
+  <data name="&gt;&gt;ChartPie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;ChartPie.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;ChartPie.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ChartGrafic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 296</value>
+  </data>
+  <data name="ChartGrafic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>681, 390</value>
+  </data>
+  <data name="ChartGrafic.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ChartGrafic.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;ChartGrafic.Name" xml:space="preserve">
+    <value>ChartGrafic</value>
+  </data>
+  <data name="&gt;&gt;ChartGrafic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;ChartGrafic.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;ChartGrafic.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 276</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Statistic</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 665</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 452</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 557</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblGraficoColunas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblGraficoColunas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LblGraficoColunas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 656</value>
+  </data>
+  <data name="LblGraficoColunas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="LblGraficoColunas.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;LblGraficoColunas.Name" xml:space="preserve">
+    <value>LblGraficoColunas</value>
+  </data>
+  <data name="&gt;&gt;LblGraficoColunas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGraficoColunas.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;LblGraficoColunas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 640</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Produtos Mais Vendidos</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        MtDT8y/+dsFruSAIKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 474</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 9, 10, 9</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 85</value>
+  </data>
+  <data name="bunifuCircleProgressbarCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarCliente.Name" xml:space="preserve">
+    <value>bunifuCircleProgressbarCliente</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarCliente.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCircleProgressbar, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarCliente.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarCliente.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 371</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 9, 10, 9</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 85</value>
+  </data>
+  <data name="bunifuCircleProgressbarVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarVenda.Name" xml:space="preserve">
+    <value>bunifuCircleProgressbarVenda</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarVenda.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCircleProgressbar, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarVenda.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarVenda.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        A/8BrbmG2Hxwy4QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 577</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 9, 10, 9</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 85</value>
+  </data>
+  <data name="bunifuCircleProgressbarProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarProduto.Name" xml:space="preserve">
+    <value>bunifuCircleProgressbarProduto</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarProduto.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCircleProgressbar, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarProduto.Parent" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;bunifuCircleProgressbarProduto.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panelDesktopPane.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelDesktopPane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 135</value>
+  </data>
+  <data name="panelDesktopPane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 694</value>
+  </data>
+  <data name="panelDesktopPane.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelDesktopPane.Name" xml:space="preserve">
+    <value>panelDesktopPane</value>
+  </data>
+  <data name="&gt;&gt;panelDesktopPane.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelDesktopPane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelDesktopPane.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="iconSplitButton1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>502, 17</value>
+  </metadata>
+  <data name="iconSplitButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="iconSplitButton1.Text" xml:space="preserve">
+    <value>iconSplitButton1</value>
+  </data>
+  <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>644, 5</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1435, 879</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;iconSplitButton1.Name" xml:space="preserve">
+    <value>iconSplitButton1</value>
+  </data>
+  <data name="&gt;&gt;iconSplitButton1.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconSplitButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;Timer.Name" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="&gt;&gt;Timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WFPrincipalView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
